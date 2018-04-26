@@ -6,7 +6,7 @@ var sass        = require('gulp-sass');
 gulp.task('sass', function() {
     return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/styles/*.sass'])
         .pipe(sass())
-        .pipe(gulp.dest("public"))
+        .pipe(gulp.dest("build"))
         .pipe(browserSync.stream());
 });
 
@@ -23,7 +23,7 @@ gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
         server: {
-           baseDir: "/build"
+           baseDir: "./build"
         }
        
     });
