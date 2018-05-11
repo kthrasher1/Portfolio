@@ -1,7 +1,67 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Dosis:400,800");
 @import url("http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+body {
+  background: #F0F8FF;
+  font-family: "Roboto Slab", serif;
+  color: #233D4D; }
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%; }
+
+.logo {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#arrow {
+  margin-top: 35%;
+  font-size: 4em;
+  text-decoration: none;
+  color: #233D4D; }
+
+#about {
+  background: #F3DE8A;
+  width: 100%;
+  height: 100%;
+  padding: 0px !important;
+  margin: 0px !important; }
+
+#face {
+  width: 20%;
+  height: 20%;
+  border: 15px solid #70A9A1; }
+
+.white {
+  width: 100%;
+  height: 50px;
+  background: #F0F8FF;
+  margin: none;
+  padding: none;
+  transform: skewY(2.5deg);
+  padding-bottom: 100px; }
+
+footer {
+  background: #F3DE8A;
+  color: #233D4D;
+  position: absolute; }
+  footer .email {
+    color: #70A9A1 !important; }
+  footer a {
+    text-decoration: none !important; }
+
+#nav {
+  background-color: inherit;
+  color: #233D4D;
+  font-family: "Open sans", sans-serif;
+  padding-right: 2em; }
+  #nav a {
+    color: inherit; }
+  #nav a :hover {
+    color: #F3DE8A; }

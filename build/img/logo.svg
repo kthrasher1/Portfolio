@@ -1,74 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="537.054px" height="543.054px" viewBox="-36 125.946 537.054 543.054"
-	 style="enable-background:new -36 125.946 537.054 543.054;" xml:space="preserve">
-<style type="text/css">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260.193 408.494">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #70a9a1;
+      }
 
-</style>
+      .cls-2 {
+        fill: #233d4d;
+        font-size: 173px;
+        font-family: RobotoSlab-Regular, Roboto Slab;
+      }
+      .cls-3{
+        fill: #233d4d;
+        font-size: 173px;
+        font-family: RobotoSlab-Regular, Roboto Slab;
+      }
 
-<defs>
-<style type="text/css">
- .logo{fill:#FFF; stroke:#000;stroke-width:3;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:2000;}
- .line{fill:#FFF; stroke:#000;stroke-width:3;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:2000;}
- .st2{fill:#FFF; stroke:none;stroke-width:0.25;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:2000;}
- .st3{fill:#FFF;}
-
- .line, .logo{
-
-	 stroke-dasharray: 2000;
-	 stroke-dashoffset: 0;
-	 -webkit-animation: dash 4s linear forwards, fill-it 0.8s 4.5s forwards;
-	 animation: dash 4s linear forwards, fill-it 0.8s 4.5s forwards;
-
-}
-
-.st2, .st3 {
-
--webkit-animation:fill-it 0.8s 4.5s forwards;
-animation: fill-it 0.8s 4.5s forwards;
-}
-
-
-@keyframes fill-it {
-  100% {
-    fill: black;
-  }
-}
-
- @-webkit-keyframes dash{
-
-	 from{
-
-	 stroke-dashoffset: 2000;
-	 }
-	 to{
-
-	 stroke-dashoffset: 0;
-	 }
-
- }
-
-
-
-</style>
-</defs>
-
-
-
-
-
-<polygon class="logo" points="85.541,271.154 112.541,271.154 112.541,393.487 211.541,271.154 376.874,271.154 376.874,300.154
-	310.874,300.154 311.208,515.154 284.541,515.154 283.874,300.154 222.541,300.154 163.541,370.82 250.874,515.154 216.208,515.154
-	144.874,393.154 112.208,431.154 112.874,515.154 85.541,515.154 "/>
-<rect x="-17.459" y="150.223" class="line" width="31.333" height="495.25"/>
-<rect x="13.874" y="614.348" class="line" width="434.667" height="31.125"/>
-<rect x="15.235" y="150.223" class="line" width="434.667" height="29.64"/>
-<rect x="451.333" y="150.223" class="line" width="31.333" height="495.25"/>
-<rect x="10.5" y="151.861" class="st2" width="13.583" height="25.918"/>
-<rect x="443.11" y="151.861" class="st2" width="13.583" height="25.918"/>
-<rect x="443.069" y="615.882" class="st3" width="13.583" height="28.056"/>
-<rect x="8.443" y="615.882" class="st3" width="13.583" height="28.056"/>
-<rect x="436.943" y="164.82" class="st3" width="25.918" height="13.583"/>
-<rect x="4.333" y="164.82" class="st3" width="25.918" height="13.583"/>
+    </style>
+  </defs>
+  <g id="Symbol_1_1" data-name="Symbol 1 – 1" transform="translate(-432.154 -240.5)">
+    <path id="Subtraction_1" data-name="Subtraction 1" class="cls-1" d="M447.046,408.494H38.553V286.731H74.318v76.725H411.281V286.082h35.765V408.493Zm0-285.3H411.281V45.037H74.318v76.157H38.553V0H447.046V123.195Z" transform="translate(723.479 240.5)"/>
+    <text id="Kurtis" class="cls-2 " transform="translate(687.154 499.475)"><tspan x="-254.22" y="0">Kurtis</tspan></text>
+    <text id="Thrasher" class="cls-3 " transform="translate(1316.347 499.475)"><tspan x="-375.27" y="0">Thrasher</tspan></text>
+  </g>
 </svg>
