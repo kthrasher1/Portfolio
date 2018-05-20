@@ -222,23 +222,12 @@ footer.footer {
   background-color: #70A9A1;
   opacity: 1; }
 
-/* Start of media queries */
 @media only screen and (min-width: 1024px) {
   .back-to-top {
     height: 60px;
     width: 60px;
     right: 30px;
     bottom: 30px; } }
-
-@media screen and (max-width: 680px) {
-  ul.topnav li {
-    display: none; }
-    ul.topnav li a {
-      border: none;
-      line-height: 1; }
-    ul.topnav li.icon {
-      float: right;
-      display: inline-block; } }
 
 #nav {
   background-color: inherit;
