@@ -1,30 +1,100 @@
 #about
+  background: $buff
+  position: relative
+  height: 45%
+  z-index: 5
+  h1
+      font-weight: $font-medium
+      font-size: 7em
+  h2
+      font-family: $font-type
+      font-size: 3em
+      font-weight: $font-normal
+  h3
+      font-family: $font-type
+      font-size: 2em
+      font-weight: $font-light
+  &:after
+    content: ""
     background: $buff
-    width: 100%
-    height: 100%
-    padding: 0px !important
-    margin: 0px !important 
-    
+    width: 150%
+    margin-left: -25%
+    top: 92.2%
+    height: 75px
+    position: absolute
+    left: 0
+    z-index: -1
+    transform: rotate(1deg)
+    transform-origin: 52.5% 100%
+    transform-style: preserve-3d
+    backface-visibility: hidden
+ 
 
 #face
-    width: 20%
-    height: 20%
-    border: 15px solid $green-sheen
-.white
-    width: 100%
-    height: 50px
-    background: $alice-blue
-    margin: none
-    padding: none
-    transform: skewY(2.5deg)
-    padding-bottom: 100px
+    width: 35%
+    margin-top: 15em
+    height: 75%
+    border-radius: 50%
+    border: 10px solid $green-sheen
+    background: $green-sheen
 
-
-footer
-    background: $buff
+#arrow
     color: $japanese-indigo
-    position: absolute
-    .email
-        color: $green-sheen !important
-    a
-        text-decoration: none !important
+    font-size: 4em
+
+#content
+    padding-top: 4%
+    margin-top: 4%
+
+#angle
+    margin-top: 30em
+    width: 200%
+    margin-left: -50%
+    position: relative
+
+    &:after
+        content: "Take a look at my work"
+        font-size: 4em
+        background: $green-sheen
+        width: 200%
+        margin-left: -50%
+        top: 92.2%
+        height: 100px
+        position: absolute
+        left: 0
+        z-index: -1
+        transform: rotate(-3deg)
+        transform-origin: 52.5% 100%
+        transform-style: preserve-3d
+        backface-visibility: hidden
+
+#angle2
+    margin-top: 10em
+    width: 200%
+    margin-left: -50%
+    position: relative
+
+    &:after
+        content: "...Many more to come"
+        font-size: 3em
+        background: $green-sheen
+        width: 200%
+        margin-left: -50%
+        top: 92.2%
+        height: 100px
+        position: absolute
+        left: 0
+        z-index: -1
+        transform: rotate(-2deg)
+        transform-origin: 52.5% 100%
+        transform-style: preserve-3d
+        backface-visibility: hidden
+
+#port
+    margin-top: 10%
+
+.portfolio-item
+    img
+        outline: 10px solid $green-sheen
+        background-color: $green-sheen
+        box-shadow: 30px 30px 0 $buff
