@@ -217,10 +217,9 @@ footer.footer {
     opacity: 1; }
   .back-to-top.top-fade-out {
     opacity: .8; }
-
-.no-touch .top-top:hover {
-  background-color: #70A9A1;
-  opacity: 1; }
+  .back-to-top .no-touch .top-top:hover {
+    background-color: #70A9A1;
+    opacity: 1; }
 
 @media only screen and (min-width: 1024px) {
   .back-to-top {
