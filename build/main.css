@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Dosis:400,800");
-@import url("https://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 body, html {
   width: 100%;
@@ -217,9 +216,10 @@ footer.footer {
     opacity: 1; }
   .back-to-top.top-fade-out {
     opacity: .8; }
-  .back-to-top .no-touch .top-top:hover {
-    background-color: #70A9A1;
-    opacity: 1; }
+
+.no-touch .top-top:hover {
+  background-color: #70A9A1;
+  opacity: 1; }
 
 @media only screen and (min-width: 1024px) {
   .back-to-top {
