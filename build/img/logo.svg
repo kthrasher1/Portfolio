@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260.193 408.494">
   <defs>
     <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+      
       .cls-1 {
         fill: #70a9a1;
       }
@@ -8,12 +10,14 @@
       .cls-2 {
         fill: #233d4d;
         font-size: 173px;
-        font-family: RobotoSlab-Regular, Roboto Slab;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
       }
       .cls-3{
         fill: #233d4d;
         font-size: 173px;
-        font-family: RobotoSlab-Regular, Roboto Slab;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
       }
 
     </style>
