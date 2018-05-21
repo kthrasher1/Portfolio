@@ -13,18 +13,13 @@
         font-family: 'Roboto Slab', serif;
         font-weight: 400;
       }
-      .cls-3{
-        fill: #233d4d;
-        font-size: 173px;
-        font-family: 'Roboto Slab', serif;
-        font-weight: 400;
-      }
+    
 
     </style>
   </defs>
   <g id="Symbol_1_1" data-name="Symbol 1 – 1" transform="translate(-432.154 -240.5)">
     <path id="Subtraction_1" data-name="Subtraction 1" class="cls-1" d="M447.046,408.494H38.553V286.731H74.318v76.725H411.281V286.082h35.765V408.493Zm0-285.3H411.281V45.037H74.318v76.157H38.553V0H447.046V123.195Z" transform="translate(723.479 240.5)"/>
     <text id="Kurtis" class="cls-2 " transform="translate(687.154 499.475)"><tspan x="-254.22" y="0">Kurtis</tspan></text>
-    <text id="Thrasher" class="cls-3 " transform="translate(1316.347 499.475)"><tspan x="-375.27" y="0">Thrasher</tspan></text>
+    <text id="Thrasher" class="cls-2 " transform="translate(1316.347 499.475)"><tspan x="-375.27" y="0">Thrasher</tspan></text>
   </g>
 </svg>
