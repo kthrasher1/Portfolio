@@ -205,7 +205,7 @@ footer.footer {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #70A9A1 url(http://codyhouse.co/demo/back-to-top/img/cd-top-arrow.svg) no-repeat center 50%;
+  background: #70A9A1 url(https://codyhouse.co/demo/back-to-top/img/cd-top-arrow.svg) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.3s;
