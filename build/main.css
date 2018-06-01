@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
 
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden; } }
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -241,7 +245,7 @@ footer.footer {
     top: 0%;
     position: absolute; }
   #about h1 {
-    font-size: 5em; }
+    font-size: 4em; }
   #about h2 {
     font-size: 1.5em; }
   #about h3 {
