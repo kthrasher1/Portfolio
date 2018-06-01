@@ -279,14 +279,14 @@ footer.footer {
   position: relative;
   user-select: none; }
   .menu-icon .navicon {
-    background: #F3DE8A !important;
+    background: #F3DE8A;
     display: block;
     height: .2rem;
     position: relative;
     transition: background .2s ease-out;
     width: 1.8rem; }
     .menu-icon .navicon:before, .menu-icon .navicon:after {
-      background: #F3DE8A !important;
+      background: #F3DE8A;
       content: '';
       display: block;
       height: 100%;
@@ -303,7 +303,7 @@ footer.footer {
   .menu-btn:checked ~ .menu {
     max-height: calc(85vh - 5rem); }
   .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent; }
+    background: transparent !important; }
     .menu-btn:checked ~ .menu-icon .navicon:before {
       transform: rotate(-45deg); }
     .menu-btn:checked ~ .menu-icon .navicon:after {
@@ -315,5 +315,7 @@ footer.footer {
   ul.menu {
     flex-basis: auto;
     max-height: none; }
-  .menu-icon label {
-    justify-content: center; } }
+  .menu-icon {
+    display: none; }
+    .menu-icon label {
+      justify-content: center; } }

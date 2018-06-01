@@ -20,14 +20,14 @@
     position: relative
     user-select: none
     .navicon
-        background: $buff !important
+        background: $buff 
         display: block
         height: .2rem
         position: relative
         transition: background .2s ease-out
         width: 1.8rem
         &:before, &:after
-            background: $buff !important
+            background: $buff
             content: ''
             display: block
             height: 100%
@@ -46,7 +46,7 @@
             max-height: calc(85vh - 5rem)
         .menu-icon
             .navicon
-                background: transparent
+                background: transparent !important
                 &:before
                     transform: rotate(-45deg)
                 &:after
