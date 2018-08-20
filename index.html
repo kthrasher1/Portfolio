@@ -90,7 +90,7 @@
         <div class="row" id="portfolio" >
           <div class="col-sm-12 col-md-12"  id="port">
             <a class="portfolio-item" href="https://codepen.io/Kthrasher/pen/VyvBWB?editors=1010">
-              <img class="img-fluid" src="build/img/breakout2.PNG" alt="">
+              <img class="img-fluid " id="breakout"  src="build/img/breakout.gif" alt="">
             </a>
           </div>
           <div class="col-sm-12 col-md-12"  id="port">
@@ -98,7 +98,8 @@
           </div>
           <div class="col-sm-12 col-md-12"  id="port">
             <a class="portfolio-item" href="https://codepen.io/Kthrasher/pen/XVmBaR">
-              <img class="img-fluid" src="build/img/orlando.PNG" alt="">
+              <img class="img-fluid" id="orlando" src="build/img/orlando2.gif" alt="">
+
             </a>
           </div>
           <div class="col-sm-12 col-md-12"  id="port">
@@ -106,7 +107,7 @@
           </div>
           <div class="col-sm-12 col-md-12"  id="port">
             <a class="portfolio-item" href="https://codepen.io/Kthrasher/pen/mpeKWM">
-              <img class="img-fluid" src="build/img/turtle.PNG" alt="">
+              <img class="img-fluid" id="turtle" src="build/img/turtle.gif" alt="">
             </a>
           </div>
           <div class="col-sm-12 col-md-12"  id="port">
@@ -152,7 +153,45 @@
     <script src="build/scripts/jquery-easing.js"></script>
     <script src="build/scripts/up-down.js"></script> 
     <script src="build/scripts/arrow.js"></script>
+    
 
+    <script>
+      $(function() {
+          $("#orlando").hover(
+              function() {
+                  $(this).attr("src", "build/img/orlando.gif");
+              },
+              function() {
+                  $(this).attr("src", "build/img/orlando2.gif");
+              }                         
+          );                  
+      });
+  </script>
+
+<script>
+  $(function() {
+      $("#breakout").hover(
+          function() {
+              $(this).attr("src", "build/img/breakout2.gif");
+          },
+          function() {
+              $(this).attr("src", "build/img/breakout.gif");
+          }                         
+      );                  
+  });
+</script>
+<script>
+  $(function() {
+      $("#turtle").hover(
+          function() {
+              $(this).attr("src", "build/img/turtle2.gif");
+          },
+          function() {
+              $(this).attr("src", "build/img/turtle.gif");
+          }                         
+      );                  
+  });
+</script>
  
     <a href="javascript:void(0)" class="back-to-top">top</a>
     
