@@ -8,18 +8,39 @@ jQuery(document).ready(function($) {
         //grab the "back to top" link
         $back_to_top = $('.back-to-top');
 
-    //hide or show the "back to top" link
-    $(window).scroll(function() {
-        ($(this).scrollTop() > offset) ? $back_to_top.addClass('top-is-visible'): $back_to_top.removeClass('top-is-visible top-fade-out');
-        if ($(this).scrollTop() > offset_opacity) {
-            $back_to_top.addClass('top-fade-out');
-        }
+    
+
+    
+    
+    
+});
+
+//hide or show the "back to top" link
+$(window).scroll(function() {
+    ($(this).scrollTop() > offset) ? $back_to_top.addClass('top-is-visible'): $back_to_top.removeClass('top-is-visible top-fade-out');
+    if ($(this).scrollTop() > offset_opacity) {
+        $back_to_top.addClass('top-fade-out');
+    }
+});
+
+jQuery('.back-to-top').click(function() {
+    jQuery('html, body').animate({
+        scrollTop: 0
+    }, 'slow');
+});
+
+
+jQuery(document).ready(function($) {
+    //jQuery for page scrolling feature - requires jQuery Easing plugin
+    $(function () {
+        $('a.page-scroll').bind('click', function (event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1550, 'easeInOutExpo');
+            event.preventDefault();
+        });
     });
 
-    jQuery('.back-to-top').click(function() {
-        jQuery('html, body').animate({
-            scrollTop: 0
-        }, 'slow');
-    });
 
 });

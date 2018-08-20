@@ -1,7 +1,7 @@
 #about
   background: $buff
   position: relative
-  height: 45%
+  height: 33%
   z-index: 5
   h1
       font-weight: $font-medium
@@ -32,7 +32,7 @@
 
 #face
     width: 35%
-    margin-top: 15em
+    margin-top: 7em
     height: 75%
     border-radius: 50%
     border: 10px solid $green-sheen
@@ -75,7 +75,7 @@
     position: relative
 
     &:after
-        content: "...Many more to come"
+        content: ""
         font-size: 3em
         background: $green-sheen
         width: 200%
@@ -136,3 +136,33 @@
     width: 60px
     right: 30px
     bottom: 30px
+
+
+@media only screen and (max-width: 600px) 
+    #about 
+        height: 25%
+    #angle2
+        &:after
+            font-size: 2em
+    #angle
+        &:after
+            font-size: 2em
+            height: 75px
+            top: 0%
+            position: absolute
+
+    #about
+        h1
+            font-size: 4em
+        h2
+            font-size: 1.5em
+        h3
+            font-size: 1.5em
+    
+    #face
+        width: 45%
+        height: 85%
+        margin-top: 5em
+    #port
+        margin-top: 15%
+    
