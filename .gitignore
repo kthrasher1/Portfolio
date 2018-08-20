@@ -1,3 +1,4 @@
 
 *.md
 build/img/Open.png
+node_modules
