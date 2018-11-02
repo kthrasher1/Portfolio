@@ -3,7 +3,7 @@
     <style>
      
       @font-face {
-      font-family: RobotoSlab-Regular;
+      font-family: 'Roboto Slab';
       src: url('RobotoSlab-Regular.woff');
     }
 
