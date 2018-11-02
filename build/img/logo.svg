@@ -2,17 +2,18 @@
   <defs>
     <style>
      
-      
+      @font-face {
+      font-family: RobotoSlab-Regular;
+      src: url('RobotoSlab-Regular.woff');
+    }
 
       .cls-1 {
         fill: #70a9a1;
       }
 
       .cls-2 {
-        src: url(RobotoSlab-Regular.woff);
         fill: #233d4d;
         font-size: 173px;
-        font-family: 'Roboto Slab', serif;
         font-weight: 400;
       }
     
