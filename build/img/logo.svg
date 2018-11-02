@@ -12,6 +12,8 @@
       }
 
       .cls-2 {
+        font-family: 'Roboto Slab';
+        src: url('RobotoSlab-Regular.woff');
         fill: #233d4d;
         font-size: 173px;
         font-weight: 400;
