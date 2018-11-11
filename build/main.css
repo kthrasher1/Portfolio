@@ -95,7 +95,7 @@ footer.footer {
     height: 100%; }
   @media (min-width: 992px) {
     .masthead .masthead {
-      height: 100vh; } }
+      height: 20px; } }
 
 #about {
   background: #F3DE8A;
