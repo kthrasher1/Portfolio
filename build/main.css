@@ -6,7 +6,7 @@ body, html {
   overflow-x: hidden; }
 
 body {
-  background: #F0F8FF;
+  background: white;
   font-family: "Roboto Slab", serif;
   color: #233D4D; }
 
@@ -88,7 +88,7 @@ footer.footer {
   height: 100vh;
   padding-top: 3rem;
   padding-bottom: 20rem;
-  background: #F0F8FF; }
+  background: white; }
   .masthead h1 {
     font-size: 4rem;
     margin: 0;
@@ -96,6 +96,13 @@ footer.footer {
   .masthead .logo {
     width: 100%;
     height: 100%; }
+  .masthead .title {
+    font-weight: 400 !important;
+    font-family: "Open sans", sans-serif;
+    height: 10%;
+    padding: 0; }
+    .masthead .title .ampersands {
+      font-family: "Roboto Slab", serif; }
   @media (min-width: 992px) {
     .masthead .masthead {
       height: 20px; } }
