@@ -99,13 +99,11 @@ footer.footer {
   .masthead .title {
     font-weight: 400 !important;
     font-family: "Open sans", sans-serif;
+    font-size: 10000000000px;
     height: 10%;
     padding: 0; }
     .masthead .title .ampersands {
       font-family: "Roboto Slab", serif; }
-  @media (min-width: 992px) {
-    .masthead .masthead {
-      height: 20px; } }
 
 #about {
   background: #F3DE8A;
